@@ -41,22 +41,22 @@ const Footer = () => {
             >
               Company
             </Typography>
-            <Link href='#' color='inherit'>
+            <Link href='#' color='inherit' underline='none'>
               About Us
             </Link>
-            <Link href='#' color='inherit'>
+            <Link href='#' color='inherit' underline='none'>
               Careers
             </Link>
-            <Link href='#' color='inherit'>
+            <Link href='#' color='inherit' underline='none'>
               Patnerships
             </Link>
-            <Link href='#' color='inherit'>
+            <Link href='#' color='inherit' underline='none'>
               Meet the team
             </Link>
-            <Link href='#' color='inherit'>
+            <Link href='#' color='inherit' underline='none'>
               Press
             </Link>
-            <Link href='#' color='inherit'>
+            <Link href='#' color='inherit' underline='none'>
               Board of directors
             </Link>
           </Stack>
@@ -84,13 +84,13 @@ const Footer = () => {
             >
               Links
             </Typography>
-            <Link href='#' color='inherit'>
+            <Link href='#' color='inherit' underline='none'>
               Convert
             </Link>
-            <Link href='#' color='inherit'>
+            <Link href='#' color='inherit' underline='none'>
               News
             </Link>
-            <Link href='#' color='inherit'>
+            <Link href='#' color='inherit' underline='none'>
               Contact Us
             </Link>
           </Stack>
@@ -118,10 +118,10 @@ const Footer = () => {
             >
               Resources
             </Typography>
-            <Link href='#' color='inherit'>
+            <Link href='#' color='inherit' underline='none'>
               Currency Encyclopedia
             </Link>
-            <Link href='#' color='inherit'>
+            <Link href='#' color='inherit' underline='none'>
               Historical currency exchange
             </Link>
           </Stack>
@@ -149,10 +149,10 @@ const Footer = () => {
             >
               Product
             </Typography>
-            <Link href='#' color='inherit'>
+            <Link href='#' color='inherit' underline='none'>
               API
             </Link>
-            <Link href='#' color='inherit'>
+            <Link href='#' color='inherit' underline='none'>
               Integration matrix
             </Link>
           </Stack>
@@ -180,16 +180,16 @@ const Footer = () => {
             >
               Support
             </Typography>
-            <Link href='#' color='inherit'>
+            <Link href='#' color='inherit' underline='none'>
               Help Center
             </Link>
-            <Link href='#' color='inherit'>
+            <Link href='#' color='inherit' underline='none'>
               FAQ
             </Link>
-            <Link href='#' color='inherit'>
+            <Link href='#' color='inherit' underline='none'>
               File a complaint
             </Link>
-            <Link href='#' color='inherit'>
+            <Link href='#' color='inherit' underline='none'>
               Fraud report
             </Link>
           </Stack>
@@ -217,13 +217,13 @@ const Footer = () => {
             >
               Legal
             </Typography>
-            <Link href='#' color='inherit'>
+            <Link href='#' color='inherit' underline='none'>
               Privacy Policy
             </Link>
-            <Link href='#' color='inherit'>
+            <Link href='#' color='inherit' underline='none'>
               Terms and Conditions
             </Link>
-            <Link href='#' color='inherit'>
+            <Link href='#' color='inherit' underline='none'>
               Cookie Policy
             </Link>
           </Stack>
