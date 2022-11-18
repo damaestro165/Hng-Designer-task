@@ -15,9 +15,10 @@ const FaqCard = ({ data }) => {
 const Container = styled.div`
   diaplay: flex;
   flex-direction: col;
-  background: #f8fafc;
   justify-content: center;
-  align-items: flex-start;
+  align-items: center;
+  border: 2px solid #cbd5e1;
+  border-radius: 8px;
   padding: 16px 8px;
 `;
 const Question = styled.h3`

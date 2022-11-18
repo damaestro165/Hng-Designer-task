@@ -2,10 +2,13 @@ import styled from 'styled-components';
 import SearchIcon from '../assets/searchIcon.svg';
 import FaqCard from '../Components/FaqCard';
 import { faqData } from '../FaqData';
+import Footer from '../Components/Footer';
+import NavBar from '../Components/NavBar';
 
 const Faq = () => {
   return (
     <div>
+      <NavBar />
       <Container>
         <TextWrapper>
           <BigText>Frequently Asked Questions</BigText>
@@ -36,6 +39,9 @@ const Faq = () => {
           <GetInTouch>Get in touch</GetInTouch>
         </Wrapper>
       </FaqContainer>
+      <div>
+        <Footer />
+      </div>
     </div>
   );
 };
@@ -96,7 +102,7 @@ const SearchWrapper = styled.div`
 `;
 
 const Searchgroup = styled.div`
-  width: 755px;
+  width: 700px;
   position: relative;
   & img {
     position: absolute;
@@ -147,12 +153,13 @@ const GetInTouch = styled.button`
   background: #0062ff;
   border: none;
   color: white;
-  font-size: 12px;
+  font-size: 10px;
   align-self: center;
   width: 48%;
   @media only screen and (min-width: 768px) {
     padding: 20px;
     width: auto;
+    font-size: 16px;
   }
 `;
 const FaqContainer = styled.section`
