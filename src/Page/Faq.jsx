@@ -228,9 +228,10 @@ const Wrapper = styled.div`
   justify-content: space-between;
   align-content: center;
   padding: 1rem;
-  margin-top: 5rem;
-  @media only screen and (min-width: 768px) {
+  margin: 5rem 0 0 0;
+  @media only screen and (min-width: 992px) {
     padding: 1.5rem;
+    margin: 5rem 5rem 0 5rem;
   }
 `;
 
