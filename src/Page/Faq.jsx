@@ -207,7 +207,7 @@ const Question = styled.h3`
   margin: 12px 0px;
 
   @media only screen and (min-width: 768px) {
-    font-size: 1.5rem;
+    font-size: 2rem;
   }
 `;
 const Answer = styled.p`
@@ -217,7 +217,7 @@ const Answer = styled.p`
   color: #555962;
 
   @media only screen and (min-width: 768px) {
-    font-size: 12px;
+    font-size: 1rem;
   }
 `;
 
@@ -231,7 +231,7 @@ const Wrapper = styled.div`
   margin: 5rem 0 0 0;
   @media only screen and (min-width: 992px) {
     padding: 1.5rem;
-    margin: 5rem 5rem 0 5rem;
+    margin: 5rem 5rem 0 8rem;
   }
 `;
 
