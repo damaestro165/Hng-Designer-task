@@ -46,6 +46,7 @@ const DrawerComponent = ({ isOpen, setIsOpen, navItems }) => {
     <>
       {isOpen && (
         <Drawer
+          anchor='right'
           variant='temporary'
           open={isOpen}
           onClose={setIsOpen}

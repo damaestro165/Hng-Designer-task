@@ -1,3 +1,4 @@
+import React, { useState } from 'react';
 import styled from 'styled-components';
 import SearchIcon from '../assets/searchIcon.svg';
 import FaqCard from '../Components/FaqCard';
@@ -6,6 +7,18 @@ import Footer from '../Components/Footer';
 import NavBar from '../Components/NavBar';
 
 const Faq = () => {
+  const [searchField, setSearchField] = useState('');
+
+  const filteredFaq = faqData.filter((faq) => {
+    return (
+      faq.quest.toLowerCase().includes(searchField.toLowerCase()) ||
+      faq.answer.toLowerCase().includes(searchField.toLowerCase())
+    );
+  });
+
+  const handleChange = (e) => {
+    setSearchField(e.target.value);
+  };
   return (
     <div>
       <NavBar />
@@ -17,15 +30,15 @@ const Faq = () => {
         <SearchWrapper>
           <Searchgroup>
             <img src={SearchIcon} alt='searchIcon' />
-            <Search placeholder='Search FAQs' />
-            <StyledButton>Search</StyledButton>
+            <Search placeholder='Search FAQs' onChange={handleChange} />
+            <StyledButton onClick={handleChange}>Search</StyledButton>
           </Searchgroup>
         </SearchWrapper>
       </Container>
       <FaqContainer>
         <FaqWrapper>
-          {faqData.map((faq) => (
-            <FaqCard data={faq} />
+          {filteredFaq.map((faq, index) => (
+            <FaqCard data={faq} key={index} />
           ))}
         </FaqWrapper>
         <Wrapper>

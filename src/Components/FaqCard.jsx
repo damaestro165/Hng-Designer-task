@@ -1,11 +1,10 @@
 import React from 'react';
 import styled from 'styled-components';
-import ExchangeIcon from '../assets/convertIcon.svg';
 
 const FaqCard = ({ data }) => {
   return (
     <Container>
-      <img src={ExchangeIcon} alt='ExchangeIcon' />
+      <img src={data.img} alt='ExchangeIcon' />
       <Question>{data.quest}</Question>
       <Answer>{data.answer}</Answer>
     </Container>
