@@ -4,6 +4,7 @@ import DollarIcon from './assets/dollar.png';
 import MessageIcon from './assets/message.png';
 import PalIcon from './assets/parralel.png';
 import ExchangeIcon from './assets/convertIcon.svg';
+import NotificationIcon from './assets/notification.png';
 
 export const faqData = [
   {
@@ -27,7 +28,7 @@ export const faqData = [
   {
     quest: 'Will I be able to see push notifications?',
     answer: 'You can see push notifications when rates are updated.',
-    img: MessageIcon,
+    img: NotificationIcon,
   },
   {
     quest: 'Which currency can I view?',

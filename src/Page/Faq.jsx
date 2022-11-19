@@ -217,7 +217,7 @@ const Answer = styled.p`
   color: #555962;
 
   @media only screen and (min-width: 768px) {
-    font-size: 1rem;
+    font-size: 12px;
   }
 `;
 
@@ -231,7 +231,7 @@ const Wrapper = styled.div`
   margin: 5rem 0 0 0;
   @media only screen and (min-width: 992px) {
     padding: 1.5rem;
-    margin: 5rem 5rem 0 6rem;
+    margin: 5rem 5rem 0 5rem;
   }
 `;
 
